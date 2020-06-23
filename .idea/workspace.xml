@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3c09de46-06dc-40bb-8604-b3237871f2f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Windenergy_prediction/Templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Windenergy_prediction/Templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Windenergy_prediction/Windenergy_prediction/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Windenergy_prediction/Windenergy_prediction/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Windenergy_prediction/Windenergy_prediction/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Windenergy_prediction/Windenergy_prediction/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Windenergy_prediction/homepage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Windenergy_prediction/homepage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Windenergy_prediction/homepage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Windenergy_prediction/homepage/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dacy7BGuqFwW0v4VmF7xUNAIaU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,10 +29,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Windenergy_prediction/homepage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Windenergy_prediction/production" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Windenergy_prediction/production" />
+      <recent name="$PROJECT_DIR$/Windenergy_prediction/accounts" />
       <recent name="$PROJECT_DIR$/Windenergy_prediction/homepage" />
     </key>
   </component>
