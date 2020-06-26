@@ -18,62 +18,58 @@
                 <div class="card">
                     <div class="card-header">Welcome {{username}} please update profile details.</div>
                     <div class="card-body">
-
+                        <form action="update_profile" method="POST">
+                            {% csrf_token %}
                         <div class="form-content">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="First Name *" value="" required/>
+                                        <input type="text" class="form-control" placeholder="First Name *" name="fname" required/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Last Name *" value="" required/>
+                                        <input type="text" class="form-control" placeholder="Last Name *" name="lname" required/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Phone Number *" value="" required/>
+                                        <input type="text" class="form-control" placeholder="Phone Number *" name="phone" required/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Pincode *" value="" required/>
+                                        <input type="text" class="form-control" placeholder="Pincode *" name="pincode" required/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Wind Farm Location *" value="" required/>
+                                        <input type="text" class="form-control" placeholder="Wind Farm Location *" name="location" required/>
                                     </div>
 
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Organization Name *"
-                                            value="" required/>
+                                            name="orgname" required/>
                                     </div>
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Organization Email *"
-                                            value="" required/>
+                                            name="orgemail" required/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Country *" value="" required/>
+                                        <input type="text" class="form-control" placeholder="Country *" name="country" required/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="State *" value="" required/>
+                                        <input type="text" class="form-control" placeholder="State *" name="state" required/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Omned number of wind farms  *" value="" required/>
+                                        <input type="text" class="form-control" placeholder="Omned number of wind farms  *" name="no_of_wind" required/>
                                     </div>
                                 </div>
                             </div>
                             <button type="submit"
                                 class="btn btn-primary btn-lg btn-block login-button">Register</button>
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
         <h3><center>Add Locations</center></h3>
-        <form action="add_location_map" style="text-align:center" method="POST">
-            {% csrf_token %}
-            <input type="text" name="lot" placeholder="Lattitude">
-            <input type="text" name="log" placeholder="Longitude">
-            <input type="submit">
-        </form>
-        <a href="map" role="button"><center>See Maps</center></a>
+
 </body>
 
 </html>
